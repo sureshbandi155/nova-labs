@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nova-labs/static/css/main.964fdded.css",
+    "main.js": "/nova-labs/static/js/main.d2f25f74.js",
+    "static/js/787.4a178e0d.chunk.js": "/nova-labs/static/js/787.4a178e0d.chunk.js",
+    "index.html": "/nova-labs/index.html",
+    "main.964fdded.css.map": "/nova-labs/static/css/main.964fdded.css.map",
+    "main.d2f25f74.js.map": "/nova-labs/static/js/main.d2f25f74.js.map",
+    "787.4a178e0d.chunk.js.map": "/nova-labs/static/js/787.4a178e0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964fdded.css",
+    "static/js/main.d2f25f74.js"
+  ]
+}
