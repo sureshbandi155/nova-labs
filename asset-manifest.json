@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/nova-labs/static/css/main.90458ec1.css",
-    "main.js": "/nova-labs/static/js/main.0ce665eb.js",
+    "main.js": "/nova-labs/static/js/main.a1784eaa.js",
     "static/js/787.4a178e0d.chunk.js": "/nova-labs/static/js/787.4a178e0d.chunk.js",
     "static/media/Logo_black.svg": "/nova-labs/static/media/Logo_black.fab6d97eca2d4a7dc64dcbe09c76e1ab.svg",
     "index.html": "/nova-labs/index.html",
     "main.90458ec1.css.map": "/nova-labs/static/css/main.90458ec1.css.map",
-    "main.0ce665eb.js.map": "/nova-labs/static/js/main.0ce665eb.js.map",
+    "main.a1784eaa.js.map": "/nova-labs/static/js/main.a1784eaa.js.map",
     "787.4a178e0d.chunk.js.map": "/nova-labs/static/js/787.4a178e0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90458ec1.css",
-    "static/js/main.0ce665eb.js"
+    "static/js/main.a1784eaa.js"
   ]
 }
