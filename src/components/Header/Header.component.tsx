@@ -21,7 +21,7 @@ export const Header = () => {
                         <Grid.Column computer={10} className={[styles['centerCol'], 'verticalAlign'].join(' ')}>
                             <nav className={[styles['navItems'], 'verticalAlign'].join(' ')}>
                                 <ul>
-                                    <NavigationItem exact link='/'>Typography</NavigationItem>
+                                    <NavigationItem exact link='/typo'>Typography</NavigationItem>
                                     <NavigationItem exact link='/services'>Services</NavigationItem>
                                     <NavigationItem link='/'>Testimonials</NavigationItem>
                                     <NavigationItem link='/'>Articles</NavigationItem>
