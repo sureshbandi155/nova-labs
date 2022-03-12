@@ -1,12 +1,15 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Typo } from './components/pages/Typo.component';
+import { Home } from './components/pages/Home/Home.component';
 
-function App() {
+export const App: React.FC = () => {
   return (
-    <div className="App">
-      <p>Welcome to Nova Labs</p>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Typo} />
+        <Route path="/services" component={Home} />
+      </Switch>
+    </BrowserRouter>
   );
-}
-
-export default App;
+};

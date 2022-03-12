@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+// @import '~semantic-ui-css/semantic.min.css';
+@import './variables';
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: $black;
+}
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1.ui.header,
+h2.ui.header,
+h3.ui.header,
+h4.ui.header,
+h5.ui.header,
+h6.ui.header {
+  font-family: 'Inter', sans-serif;
+  margin: 0 0 1rem;
+  color: $primrary-heading;
+}
+h1,
+h1.ui.header {
+  font-size: 3.4rem;
+}
+h2,
+h2.ui.header {
+  font-size: 2.6rem;
+}
+h3,
+h3.ui.header {
+  font-size: 1.45rem;
+}
+h4,
+h4.ui.header {
+  font-size: 1.25rem;
+}
+h5,
+h5.ui.header {
+  font-size: 1.15rem;
+}
+h6,
+h6.ui.header {
+  font-size: 1rem;
+  font-weight: 400;
+}
+p,
+li,
+a {
+  font-size: 1.15rem;
+}
+a {
+  font-weight: 500;
+  color: $primrary-heading;
+  transition: all 0.2s ease-in;
+}
+a:hover {
+  color: $primary-btn;
+}
+
+.sectionHeading h3,
+.sectionHeading h3.ui.header {
+  font-weight: 400;
+}
+
+// primary button blue color btn
+.ui.button {
+  font-size: 1.15rem !important;
+  padding: 1.025rem 1.9rem !important;
+  border-radius: 30px !important;
+  font-size: 1.15rem !important;
+  padding: 0.925rem 1.7rem !important;
+  border-radius: 30px !important;
+  border: 2px solid $primary-btn;
+}
+.ui.primary.button,
+.ui.primary.buttons .button {
+  background-color: $primary-btn;
+}
+.ui.primary.button:active,
+.ui.primary.buttons .button:active {
+  background-color: $primary-btn;
+}
+.ui.primary.button:focus,
+.ui.primary.buttons .button:focus {
+  background-color: $primary-btn;
+}
+.ui.primary.button:hover,
+.ui.primary.buttons .button:hover {
+  background-color: $primary-btn-hover;
+  border-color: $primary-btn-hover;
+}
+
+// secondary button blue color btn
+.ui.secondary.button,
+.ui.secondary.buttons .button {
+  color: $secondary-btn;
+  background-color: $white;
+  border: 2px solid $secondary-btn;
+}
+.ui.secondary.button:active,
+.ui.secondary.buttons .button:active {
+  background-color: $secondary-btn;
+  border: 2px solid $primary-btn;
+}
+.ui.secondary.button:focus,
+.ui.secondary.buttons .button:focus {
+  background-color: $secondary-btn;
+  border: 2px solid $primary-btn;
+}
+.ui.secondary.button:hover,
+.ui.secondary.buttons .button:hover {
+  color: $white;
+  background-color: $primary-btn;
+  border: 2px solid $primary-btn;
+}
+
+.dFlex {
+  display: flex;
+  align-items: stretch;
+}
+.verticalAlign {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.sectionPadding {
+  padding: 60px 0 !important;
+}
