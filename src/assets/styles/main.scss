@@ -60,6 +60,9 @@ li,
 a {
   font-size: 1.15rem;
 }
+p {
+  margin: 0 0 1rem !important;
+}
 a {
   font-weight: 500;
   color: $primrary-heading;
@@ -72,15 +75,15 @@ a:hover {
 .sectionHeading h3,
 .sectionHeading h3.ui.header {
   font-weight: 400;
+  margin: 0 0 1rem;
 }
 
 // primary button blue color btn
 .ui.button {
   font-size: 1.15rem !important;
-  padding: 1.025rem 1.9rem !important;
   border-radius: 30px !important;
   font-size: 1.15rem !important;
-  padding: 0.925rem 1.7rem !important;
+  padding: 0.725rem 1.7rem !important;
   border-radius: 30px !important;
   border: 2px solid $primary-btn;
 }
@@ -137,4 +140,23 @@ a:hover {
 }
 .sectionPadding {
   padding: 60px 0 !important;
+}
+.allTextWhite h1,
+.allTextWhite h2,
+.allTextWhite h3,
+.allTextWhite h4,
+.allTextWhite h5,
+.allTextWhite h6,
+.allTextWhite p,
+.allTextWhite a,
+.allTextWhite h1.ui.header,
+.allTextWhite h2.ui.header,
+.allTextWhite h3.ui.header,
+.allTextWhite h4.ui.header,
+.allTextWhite h5.ui.header,
+.allTextWhite h6.ui.header {
+  color: $white;
+}
+.centerAlign {
+  text-align: center;
 }

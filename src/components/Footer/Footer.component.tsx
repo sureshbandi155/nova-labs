@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Grid, Header, Icon, List, Form, Button } from 'semantic-ui-react';
-import Logo from '../../assets/images/Logo.png';
+import { Grid, Header, Icon, List } from 'semantic-ui-react';
+import Logo from '../../assets/images/Logo_black.svg';
 
 import styles from './Footer.module.scss';
 
@@ -10,19 +10,18 @@ export const Footer: React.FC = () => {
         <div
             className={[
                 styles['footerSec'],
-                'footerPadding allTextWhite',
+                'sectionPadding',
             ].join(' ')}
         >
-            <div className="container">
+            <div className="wrapper">
                 <Grid>
                     <Grid.Row>
-                        <Grid.Column computer={4}>
-                            <div className="logoTextSec">
+                        <Grid.Column computer={6}>
+                            <div className={styles["logoTextSec"]}>
                                 <img src={Logo} alt="Logo" />
-                                <Header
-                                    as="h4"
-                                    content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae."
-                                />
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.
+                                </p>
                             </div>
                             <div className={styles['socialShare']}>
                                 <ul>
@@ -49,39 +48,28 @@ export const Footer: React.FC = () => {
                                 </ul>
                             </div>
                         </Grid.Column>
-                        <Grid.Column computer={4} className={styles['links']}>
+                        <Grid.Column computer={5} className={styles['links']}>
                             <div>
-                                <Header as='h2' content='Useful Links' />
+                                <Header as='h3' content='Useful Links' />
                                 <List>
-                                    <List.Item as='a'><Header as='h4'>All NFTs</Header></List.Item>
-                                    <List.Item as='a'><Header as='h4'>How It Works</Header></List.Item>
-                                    <List.Item as='a'><Header as='h4'>Create</Header></List.Item>
-                                    <List.Item as='a'><Header as='h4'>Explore</Header></List.Item>
-                                    <List.Item as='a'><Header as='h4'>Privacy & Terms</Header></List.Item>
+                                    <List.Item><a>All NFTs</a></List.Item>
+                                    <List.Item><a>How It Works</a></List.Item>
+                                    <List.Item><a>Create</a></List.Item>
+                                    <List.Item><a>Explore</a></List.Item>
+                                    <List.Item><a>Privacy & Terms</a></List.Item>
                                 </List>
                             </div>
                         </Grid.Column>
-                        <Grid.Column computer={4} className={styles['links']}>
+                        <Grid.Column computer={5} className={styles['links']}>
                             <div>
-                                <Header as='h2' content='Community' />
+                                <Header as='h3' content='Community' />
                                 <List>
-                                    <List.Item as='a'><Header as='h4'>Help Center</Header></List.Item>
-                                    <List.Item as='a'><Header as='h4'>Partners</Header></List.Item>
-                                    <List.Item as='a'><Header as='h4'>Suggestions</Header></List.Item>
-                                    <List.Item as='a'><Header as='h4'>Blog</Header></List.Item>
-                                    <List.Item as='a'><Header as='h4'>Newsletter</Header></List.Item>
+                                    <List.Item><a>Help Center</a></List.Item>
+                                    <List.Item><a>Partners</a></List.Item>
+                                    <List.Item><a>Suggestions</a></List.Item>
+                                    <List.Item><a>Blog</a></List.Item>
+                                    <List.Item><a>Newsletter</a></List.Item>
                                 </List>
-                            </div>
-                        </Grid.Column>
-                        <Grid.Column computer={4} className={styles['links']}>
-                            <div>
-                                <Header as='h2' content='Subscribe Us' />
-                                <Form className={styles['subscribe']}>
-                                    <Form.Field>
-                                        <input placeholder='Enter your email' />
-                                    </Form.Field>
-                                    <Button type='submit' primary>Submit</Button>
-                                </Form>
                             </div>
                         </Grid.Column>
                     </Grid.Row>

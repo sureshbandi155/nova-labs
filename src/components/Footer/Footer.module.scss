@@ -1,63 +1,57 @@
 @import '../../assets/styles/variables';
 
 .footerSec {
-    background-color: $footer-bg;
+  background-color: $footer-bg;
+}
+.logoTextSec img {
+  max-width: 96px !important;
+  margin-bottom: 1rem;
 }
 .socialShare {
-    ul {
-        list-style: none;
-        margin: 2rem 0 0;
-        padding: 0;
+  ul {
+    list-style: none;
+    margin: 2rem 0 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin-right: 0.8rem;
+    a i {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 50%;
+      background-color: $primary-btn;
+      font-size: 1.2rem;
+      transition: 0.2s all ease-in;
+      color: $white;
     }
-    li {
-        display: inline-block;
-        margin-right: 0.8rem;
-        a i {
-            width: 30px;
-            height: 30px;
-            line-height: 30px;
-            border-radius: 50%;
-            background-color: #086ad8;
-            font-size: 1.2rem;
-            transition: 0.2s all ease-in;
-        }
-        a i:hover {
-            color: #086ad8;
-            background-color: #fff;
-        }
+    a i:hover {
+      background-color: $primary-btn-hover;
     }
+  }
 }
 .links > div:first-child h2 {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 .links > div:first-child {
-    a {
-        padding-bottom: 0.7rem !important;
-    }
-    h4 {
-        display: inline-block !important;
-        position: relative;
-        transition: all 0.2s ease-in;
-    }
-    h4::before {
-        position: absolute;
-        content: '';
-        background: #fff;
-        width: 0;
-        height: 2px;
-        bottom: 0;
-        transition: all 0.2s ease-in-out;
-    }
-    h4:hover::before {
-        width: 100%;
-    }
-}
-.subscribe {
-    button {
-        position: absolute;
-        right: 0;
-        top: 0;
-        margin: 0 !important;
-        height: 38px;
-    }
+  a {
+    padding-bottom: 0.7rem !important;
+  }
+  a {
+    display: inline-block !important;
+    position: relative;
+  }
+  //   a::before {
+  //     position: absolute;
+  //     content: '';
+  //     background: $primary-btn;
+  //     width: 0;
+  //     height: 2px;
+  //     bottom: 9px;
+  //     transition: all 0.2s ease-in-out;
+  //   }
+  //   a:hover::before {
+  //     width: 100%;
+  //   }
 }

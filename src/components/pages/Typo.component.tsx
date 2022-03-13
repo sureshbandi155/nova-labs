@@ -20,6 +20,7 @@ export const Typo: React.FC = () => {
                         <Button primary>Contact us</Button>
                         <Button secondary>Click Here</Button>
                         <a href="">Lorem.</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, dolorem!</p>
                     </div>
                 </div>
 

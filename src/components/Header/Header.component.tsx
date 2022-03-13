@@ -1,14 +1,13 @@
-import React from 'react'
-import { Button, Grid, Icon } from 'semantic-ui-react';
+import React from 'react';
+import { Button, Grid } from 'semantic-ui-react';
 import { NavigationItem } from './NavigationItem/NavigationItem.component';
 import Logo from '../../assets/images/Logo_black.svg';
-
+import { NavLink } from 'react-router-dom';
 import styles from './Header.module.scss';
 
 
-export const Header = () => {
+export const Header: React.FC = () => {
     return (
-
         <div className={styles['headerSec']}>
             <div className="wrapper">
                 <Grid>
@@ -31,7 +30,7 @@ export const Header = () => {
                         </Grid.Column>
                         <Grid.Column computer={4} className={styles['rightCol']} >
                             <div>
-                                <Button secondary content='Sign in' />
+                                <NavLink exact to='/signIn'><Button secondary>Sign in</Button></NavLink>
                                 <Button primary content='Sign up' />
                             </div>
                         </Grid.Column>
@@ -40,4 +39,4 @@ export const Header = () => {
             </div>
         </div >
     )
-}
+};
