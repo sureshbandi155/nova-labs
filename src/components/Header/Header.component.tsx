@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Grid } from 'semantic-ui-react';
 import { NavigationItem } from './NavigationItem/NavigationItem.component';
-import Logo from '../../assets/images/Logo_black.svg';
+import Logo from '../../assets/images/Logo_white.svg';
 import { NavLink } from 'react-router-dom';
 import styles from './Header.module.scss';
 
@@ -20,10 +20,12 @@ export const Header: React.FC = () => {
                         <Grid.Column computer={10} className={[styles['centerCol'], 'verticalAlign'].join(' ')}>
                             <nav className={[styles['navItems'], 'verticalAlign'].join(' ')}>
                                 <ul>
-                                    <NavigationItem exact link='/typo'>Typography</NavigationItem>
-                                    <NavigationItem exact link='/services'>Services</NavigationItem>
-                                    <NavigationItem link='/'>Testimonials</NavigationItem>
-                                    <NavigationItem link='/'>Articles</NavigationItem>
+                                    <NavigationItem exact link='/home'>Home</NavigationItem>
+                                    <NavigationItem link='/home'>About</NavigationItem>
+                                    <NavigationItem link='/home'>Roadmap</NavigationItem>
+                                    <NavigationItem link='/home'>Blog</NavigationItem>
+                                    <NavigationItem link='/home'>About Us</NavigationItem>
+                                    <NavigationItem link='/typo'>Typography</NavigationItem>
                                 </ul>
                             </nav>
 

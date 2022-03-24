@@ -20,7 +20,7 @@ export const SignIn: React.FC = () => {
             </div>
             <div className={styles['signInContainer']}>
                 <div className={styles['headingSec']}>
-                    <Header as="h4" content="Signin to Nova Labs" />
+                    <Header as="h4" content="Sign In to Nova Labs" />
                 </div>
                 <div className={styles['formSec']}>
                     <Form onSubmit={handleSubmit} ref={formRef} validationSchema={SignInSchema}>
@@ -76,7 +76,7 @@ export const SignIn: React.FC = () => {
                         }}
 
                     </Form> */}
-                    <Button secondary onClick={handleSignIn}>Sign In</Button>
+                    <Button primary onClick={handleSignIn}>Sign In</Button>
                 </div>
             </div>
             <div className={['centerAlign', styles['bottomText']].join(' ')}>

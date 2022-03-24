@@ -110,7 +110,7 @@ a:hover {
 .ui.secondary.buttons .button {
   color: $secondary-btn;
   background-color: $white;
-  border: 2px solid $secondary-btn;
+  border: 2px solid $white;
 }
 .ui.secondary.button:active,
 .ui.secondary.buttons .button:active {
@@ -159,4 +159,21 @@ a:hover {
 }
 .centerAlign {
   text-align: center;
+}
+.blueColor h1,
+.blueColor h2,
+.blueColor h3,
+.blueColor h4,
+.blueColor h5,
+.blueColor h6,
+.blueColor p,
+.blueColor a,
+.blueColor h1.ui.header,
+.blueColor h2.ui.header,
+.blueColor h3.ui.header,
+.blueColor h4.ui.header,
+.blueColor h5.ui.header,
+.blueColor h6.ui.header,
+.blueColor span {
+  color: $primary-btn;
 }

@@ -25,6 +25,6 @@
       "emitDecoratorMetadata": true,
       "downlevelIteration": true,
   },
-  "include": ["src"],
+  "include": ["src","index.d.ts"],
   "exclude": ["src/__mocks__"]
 }

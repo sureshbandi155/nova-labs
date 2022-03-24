@@ -8,9 +8,9 @@ import { SignIn } from './components/SignIn/SignIn.component';
 export const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <Redirect from='/' to='/typo' />
+      <Redirect from='/' to='/home' />
+      <Route exact path="/home" component={Home} />
       <Route exact path="/typo" component={Typo} />
-      <Route exact path="/services" component={Home} />
       <Route exact path="/signIn" component={SignIn} />
     </BrowserRouter>
   );
