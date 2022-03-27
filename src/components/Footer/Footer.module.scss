@@ -2,15 +2,21 @@
 
 .footerSec {
   background-color: $footer-bg;
+  .links p,
+  a {
+    color: #78aeff !important;
+  }
 }
-.logoTextSec img {
-  max-width: 96px !important;
-  margin-bottom: 1rem;
+.logoTextSec {
+  p {
+    color: #78aeff !important;
+  }
+  margin-top: 1rem;
 }
 .socialShare {
   ul {
     list-style: none;
-    margin: 2rem 0 0;
+    margin: 1rem 0 0;
     padding: 0;
   }
   li {
@@ -21,20 +27,20 @@
       height: 30px;
       line-height: 30px;
       border-radius: 50%;
-      background-color: $primary-btn;
       font-size: 1.2rem;
       transition: 0.2s all ease-in;
-      color: $white;
+      color: $theme-color;
+      background-color: $white;
     }
     a i:hover {
-      background-color: $primary-btn-hover;
+      transform: translateY(-5px);
     }
   }
 }
 .links > div:first-child h2 {
   padding-bottom: 5px;
 }
-.links > div:first-child {
+.navLinks {
   a {
     padding-bottom: 0.7rem !important;
   }
@@ -42,16 +48,20 @@
     display: inline-block !important;
     position: relative;
   }
-  //   a::before {
-  //     position: absolute;
-  //     content: '';
-  //     background: $primary-btn;
-  //     width: 0;
-  //     height: 2px;
-  //     bottom: 9px;
-  //     transition: all 0.2s ease-in-out;
-  //   }
-  //   a:hover::before {
-  //     width: 100%;
-  //   }
+  a::before {
+    position: absolute;
+    content: '';
+    background: $white !important;
+    width: 0;
+    height: 2px;
+    bottom: 9px;
+    transition: all 0.2s ease-in-out;
+  }
+  a:hover {
+    color: $white !important;
+  }
+  a:hover::before {
+    width: 100%;
+    color: $white;
+  }
 }

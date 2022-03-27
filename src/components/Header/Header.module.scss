@@ -2,7 +2,7 @@
 
 .headerSec {
   padding: 0.8rem 0;
-  background-color: $theme-color;
+  background-color: $header_BG;
   border-bottom: 1px solid rgba(0, 17, 41, 0.1);
 }
 
@@ -19,7 +19,7 @@
     margin: 0;
     padding: 0;
     li a {
-      color: $white;
+      color: $primrary-heading;
       &:hover {
         color: $primary-btn;
       }

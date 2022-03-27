@@ -1,13 +1,12 @@
 @import '../../assets/styles/variables';
 .signInBg {
   background-color: $primary-btn;
-  background-color: $theme-color;
   padding: 30px 0;
   height: 100vh;
 }
 .signInContainer {
   max-width: 500px;
-  background-color: $footer-bg;
+  background-color: $white;
   margin: 1rem auto;
   border-radius: 20px;
   .headingSec {

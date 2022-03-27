@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500&display=swap');
 // @import '~semantic-ui-css/semantic.min.css';
 @import './variables';
 
@@ -101,8 +102,8 @@ a:hover {
 }
 .ui.primary.button:hover,
 .ui.primary.buttons .button:hover {
-  background-color: $primary-btn-hover;
-  border-color: $primary-btn-hover;
+  background-color: $white;
+  color: $theme-color;
 }
 
 // secondary button blue color btn
@@ -160,20 +161,53 @@ a:hover {
 .centerAlign {
   text-align: center;
 }
-.blueColor h1,
-.blueColor h2,
-.blueColor h3,
-.blueColor h4,
-.blueColor h5,
-.blueColor h6,
-.blueColor p,
-.blueColor a,
-.blueColor h1.ui.header,
-.blueColor h2.ui.header,
-.blueColor h3.ui.header,
-.blueColor h4.ui.header,
-.blueColor h5.ui.header,
-.blueColor h6.ui.header,
-.blueColor span {
+.themeColor h1,
+.themeColor h2,
+.themeColor h3,
+.themeColor h4,
+.themeColor h5,
+.themeColor h6,
+.themeColor p,
+.themeColor a,
+.themeColor h1.ui.header,
+.themeColor h2.ui.header,
+.themeColor h3.ui.header,
+.themeColor h4.ui.header,
+.themeColor h5.ui.header,
+.themeColor h6.ui.header,
+.themeColor span {
   color: $primary-btn;
+}
+
+.allTextUppercase,
+.allTextUppercase a,
+.allTextUppercase h1,
+.allTextUppercase h2,
+.allTextUppercase h3,
+.allTextUppercase h4,
+.allTextUppercase h5,
+.allTextUppercase h6,
+.allTextUppercase p {
+  text-transform: uppercase !important;
+}
+.logoText > p {
+  font-size: 2rem;
+  margin: 0 !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.alignCenter {
+  text-align: center;
+}
+.alignLeft {
+  text-align: left;
+}
+.alignRight {
+  text-align: right;
+}
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
 }

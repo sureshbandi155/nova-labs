@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { Grid, Header, Icon, List } from 'semantic-ui-react';
-import Logo from '../../assets/images/Logo_black.svg';
 
 import styles from './Footer.module.scss';
 
@@ -10,48 +9,27 @@ export const Footer: React.FC = () => {
         <div
             className={[
                 styles['footerSec'],
-                'sectionPadding',
+                'sectionPadding allTextWhite',
             ].join(' ')}
         >
             <div className="wrapper">
                 <Grid>
                     <Grid.Row>
-                        <Grid.Column computer={6}>
-                            <div className={styles["logoTextSec"]}>
-                                <img src={Logo} alt="Logo" />
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.
-                                </p>
+                        <Grid.Column computer={4}>
+                            <div className={'logoText'}>
+                                <p>Socialize</p>
+                                <div className={styles["logoTextSec"]}>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.
+                                    </p>
+                                </div>
                             </div>
-                            <div className={styles['socialShare']}>
-                                <ul>
-                                    <li>
-                                        <a href="">
-                                            <Icon name="facebook f" />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <Icon name="twitter" />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <Icon name="linkedin" />
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            <Icon name="pinterest p" />
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+
                         </Grid.Column>
-                        <Grid.Column computer={5} className={styles['links']}>
+                        <Grid.Column computer={4} className={styles['links']}>
                             <div>
                                 <Header as='h3' content='Useful Links' />
-                                <List>
+                                <List className={styles['navLinks']}>
                                     <List.Item><a>All NFTs</a></List.Item>
                                     <List.Item><a>How It Works</a></List.Item>
                                     <List.Item><a>Create</a></List.Item>
@@ -60,16 +38,49 @@ export const Footer: React.FC = () => {
                                 </List>
                             </div>
                         </Grid.Column>
-                        <Grid.Column computer={5} className={styles['links']}>
+                        <Grid.Column computer={4} className={styles['links']}>
                             <div>
                                 <Header as='h3' content='Community' />
-                                <List>
+                                <List className={styles['navLinks']}>
                                     <List.Item><a>Help Center</a></List.Item>
                                     <List.Item><a>Partners</a></List.Item>
                                     <List.Item><a>Suggestions</a></List.Item>
                                     <List.Item><a>Blog</a></List.Item>
                                     <List.Item><a>Newsletter</a></List.Item>
                                 </List>
+                            </div>
+                        </Grid.Column>
+                        <Grid.Column computer={4} className={styles['links']}>
+                            <div>
+                                <Header as='h3' content='Contact Us' />
+                                <List className={styles['navLinks']}>
+                                    <List.Item><a href="tel:+91-9988774455">+91-9988774455</a></List.Item>
+                                    <List.Item><a href='mailto: support@socialize.com'>support@socialize.com</a></List.Item>
+                                </List>
+                                <div className={styles['socialShare']}>
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <Icon name="facebook f" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <Icon name="instagram" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <Icon name="twitter" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <Icon name="linkedin" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </Grid.Column>
                     </Grid.Row>
