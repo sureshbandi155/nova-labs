@@ -20,7 +20,7 @@ export const SignIn: React.FC = () => {
             </div>
             <div className={styles['signInContainer']}>
                 <div className={styles['headingSec']}>
-                    <Header as="h4" content="Sign In to Nova Labs" />
+                    <Header as="h4" content="Sign In to Socialize" />
                 </div>
                 <div className={styles['formSec']}>
                     <Form onSubmit={handleSubmit} ref={formRef} validationSchema={SignInSchema}>
