@@ -1,0 +1,21 @@
+@import '../../assets/styles/variables';
+
+.blogHeader{
+    text-align: center;
+}
+.rounded-xl{
+    border-radius: 0.75rem;
+}
+.container {
+    display: flex;
+    padding: 0 0 10px 10px;
+}
+.blogcontent{
+    padding-left: 10px;
+}
+.rightblog{
+    padding: 10px 10px 10px 0;
+}
+.singleBlog{
+    text-align: center;
+}
