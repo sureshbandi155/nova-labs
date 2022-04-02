@@ -1,14 +1,14 @@
 import React, { useEffect } from 'react';
+// import { video } from 'src/assets/images/video.mp4';
 import { Grid, Header } from 'semantic-ui-react';
-// import video from 'src/assets/images/video.mp4';
 import Typewriter from 'typewriter-effect/dist/core';
 import styles from './Banner.module.scss';
 
 export const Banner: React.FC = () => {
     const video = require('src/assets/images/video.mp4');
-    const typeWritterEle = document.getElementById('typeWritter');
 
     useEffect(() => {
+        const typeWritterEle = document.getElementById('typeWriter');
         if (typeWritterEle) {
             var typewriter = new Typewriter(typeWritterEle, {
                 loop: true,
@@ -38,28 +38,22 @@ export const Banner: React.FC = () => {
                 .pauseFor(1000)
                 .start();
         }
-    }, [typeWritterEle])
+    }, []);
 
     return (
         <div className={[styles['bannerSection'], "sectionPadding"].join(' ')}>
             <div className="wrapper">
                 <Grid>
                     <Grid.Row className='verticalAlign'>
-                        <Grid.Column computer={8} tablet={8} mobile={16}>
-                            <div className={styles['leftCol']}>
+                        <Grid.Column computer={8} tablet={8} mobile={16} className={styles['leftCol']}>
+                            <div >
                                 <Header as="h1" content='Unlocking the full potential of blockchain by' />
-                                <div id='typeWritter' className={[styles['typewritter']].join(' ')}>
-
+                                <div id='typeWriter' className={[styles['typewritter']].join(' ')}>
                                 </div>
-                                {/* <div className={styles["buttonSec"]}>
-                                    <NavLink exact to='/signIn'>
-                                        <Button secondary>Sign in</Button></NavLink>
-                                    <Button primary content='Sign up' />
-                                </div> */}
 
                             </div>
                         </Grid.Column>
-                        <Grid.Column computer={1} tablet={1}></Grid.Column>
+                        <Grid.Column computer={1} tablet={1} className={styles['centerCol']}></Grid.Column>
                         <Grid.Column computer={7} tablet={8} mobile={16}>
                             <div className={styles['rightCol']}>
                                 <video autoPlay loop>

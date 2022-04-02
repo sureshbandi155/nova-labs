@@ -15,7 +15,7 @@ export const Footer: React.FC = () => {
             <div className="wrapper">
                 <Grid>
                     <Grid.Row>
-                        <Grid.Column computer={4}>
+                        <Grid.Column computer={4} mobile={16}>
                             <div className={'logoText'}>
                                 <p>Socialize</p>
                                 <div className={styles["logoTextSec"]}>
@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
                             </div>
 
                         </Grid.Column>
-                        <Grid.Column computer={4} className={styles['links']}>
+                        <Grid.Column computer={4} mobile={16} className={styles['links']}>
                             <div>
                                 <Header as='h3' content='Useful Links' />
                                 <List className={styles['navLinks']}>
@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
                                 </List>
                             </div>
                         </Grid.Column>
-                        <Grid.Column computer={4} className={styles['links']}>
+                        <Grid.Column computer={4} mobile={16} className={styles['links']}>
                             <div>
                                 <Header as='h3' content='Community' />
                                 <List className={styles['navLinks']}>
@@ -50,7 +50,7 @@ export const Footer: React.FC = () => {
                                 </List>
                             </div>
                         </Grid.Column>
-                        <Grid.Column computer={4} className={styles['links']}>
+                        <Grid.Column computer={4} mobile={16} className={styles['links']}>
                             <div>
                                 <Header as='h3' content='Contact Us' />
                                 <List className={styles['navLinks']}>

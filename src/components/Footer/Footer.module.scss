@@ -65,3 +65,11 @@
     color: $white;
   }
 }
+@media (max-width: 767px){
+  .footerSec{
+    text-align: center;
+  }
+  .links h3{
+    margin-top: 1rem !important;
+  }
+}
