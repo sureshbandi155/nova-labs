@@ -45,14 +45,25 @@
 
 .singleBlog {
     text-align: center;
+    img{
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) {
     .dFlex {
         display: flex;
     }
+    .singleBlog img{
+        min-height: 700px;
+    }
 }
 
+@media (max-width: 767px) and (max-width: 1024px) {
+    .singleBlog img{
+        min-height: 400px;
+    }
+}
 @media (max-width: 767px) {
     .blogItems {
        display: block;
@@ -67,5 +78,8 @@
     .blogcontent{
         padding: 1.2rem !important;
         text-align: center; 
+    }
+    .singleBlog img{
+        min-height: 250px;
     }
 }
