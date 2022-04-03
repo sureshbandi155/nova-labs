@@ -37,7 +37,16 @@ export const Roadmap: React.FC = () => {
                                 }
                             >
                                 <h3 className="vertical-timeline-element-title">{ele.title}</h3>
-                                <p id="description">{ele.description}</p>
+                                {
+                                    ele.description ? 
+                                    <p id="description">{ele.description}</p>
+                                    :
+                                    <ul>
+                                    {ele.list?.map(({ key, value}) =>(
+                                        <li key={key}> {value}</li>
+                                    ))}
+                                </ul>
+                                }
                             </VerticalTimelineElement>
                         );
                     })}
