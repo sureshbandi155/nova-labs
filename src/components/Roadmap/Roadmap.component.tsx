@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Icon } from 'semantic-ui-react';
+import { Header, Icon, List } from 'semantic-ui-react';
 import {
     VerticalTimeline,
     VerticalTimelineElement,
@@ -38,14 +38,14 @@ export const Roadmap: React.FC = () => {
                             >
                                 <h3 className="vertical-timeline-element-title">{ele.title}</h3>
                                 {
-                                    ele.description ? 
-                                    <p id="description">{ele.description}</p>
-                                    :
-                                    <ul>
-                                    {ele.list?.map(({ key, value}) =>(
-                                        <li key={key}> {value}</li>
-                                    ))}
-                                </ul>
+                                    ele.description ?
+                                        <p id="description">{ele.description}</p>
+                                        :
+                                        <List bulleted>
+                                            {ele.list?.map(({ key, value }) => (
+                                                <List.Item key={key}> {value}</List.Item>
+                                            ))}
+                                        </List>
                                 }
                             </VerticalTimelineElement>
                         );

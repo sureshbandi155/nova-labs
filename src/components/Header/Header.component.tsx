@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Button } from 'semantic-ui-react';
+import { Grid } from 'semantic-ui-react';
 import styles from './Header.module.scss';
 
 
@@ -14,9 +14,9 @@ export const Header: React.FC = () => {
                                 <p>Socialize</p>
                             </div>
                         </Grid.Column>
-                        <Grid.Column computer={14} tablet={13} mobile={8} className={styles['rightCol']} >
+                        {/* <Grid.Column computer={14} tablet={13} mobile={8} className={styles['rightCol']} >
                             <Button primary>Contact Us</Button>
-                        </Grid.Column>
+                        </Grid.Column> */}
                     </Grid.Row>
                 </Grid>
             </div>
