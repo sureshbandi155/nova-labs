@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/nova-labs/static/css/main.f821ff89.css",
-    "main.js": "/nova-labs/static/js/main.48a5a59f.js",
+    "main.css": "/nova-labs/static/css/main.90668f13.css",
+    "main.js": "/nova-labs/static/js/main.57e306aa.js",
     "static/js/787.4a178e0d.chunk.js": "/nova-labs/static/js/787.4a178e0d.chunk.js",
-    "static/media/video.mp4": "/nova-labs/static/media/video.d4bf2265b2f4a01a1582.mp4",
+    "static/media/woman.png": "/nova-labs/static/media/woman.482062a11ad978223665.png",
+    "static/media/man.png": "/nova-labs/static/media/man.04f5ea9dcfb2ea2e0e06.png",
+    "static/media/finger-print.svg": "/nova-labs/static/media/finger-print.f3051185454e2fde52ef5c2648c81c72.svg",
+    "static/media/analytics.svg": "/nova-labs/static/media/analytics.f61a7739cc14e343cb7caec3208a594f.svg",
+    "static/media/person.svg": "/nova-labs/static/media/person.10bb7a30e41301237ff17b14c676dc8e.svg",
+    "static/media/logout.svg": "/nova-labs/static/media/logout.130f6ab47fd832be6481279e5fa5029b.svg",
+    "static/media/calendar.svg": "/nova-labs/static/media/calendar.17e604b3d24d5b173f7c1ecf57ca4a26.svg",
+    "static/media/coconut.svg": "/nova-labs/static/media/coconut.056466ab53e0461e1de0caca3be0c0fb.svg",
+    "static/media/law.svg": "/nova-labs/static/media/law.8417b1e932656802fb5fe64172dcc26f.svg",
+    "static/media/plane-1.svg": "/nova-labs/static/media/plane-1.fe82e3af65e7cf0bdc42d3be3d582cbf.svg",
     "index.html": "/nova-labs/index.html",
-    "main.f821ff89.css.map": "/nova-labs/static/css/main.f821ff89.css.map",
-    "main.48a5a59f.js.map": "/nova-labs/static/js/main.48a5a59f.js.map",
+    "main.90668f13.css.map": "/nova-labs/static/css/main.90668f13.css.map",
+    "main.57e306aa.js.map": "/nova-labs/static/js/main.57e306aa.js.map",
     "787.4a178e0d.chunk.js.map": "/nova-labs/static/js/787.4a178e0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f821ff89.css",
-    "static/js/main.48a5a59f.js"
+    "static/css/main.90668f13.css",
+    "static/js/main.57e306aa.js"
   ]
 }
