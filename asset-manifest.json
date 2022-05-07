@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nova-labs/static/css/main.90668f13.css",
+    "main.css": "/nova-labs/static/css/main.6cd7ca62.css",
     "main.js": "/nova-labs/static/js/main.57e306aa.js",
     "static/js/787.4a178e0d.chunk.js": "/nova-labs/static/js/787.4a178e0d.chunk.js",
     "static/media/woman.png": "/nova-labs/static/media/woman.482062a11ad978223665.png",
@@ -14,12 +14,12 @@
     "static/media/law.svg": "/nova-labs/static/media/law.8417b1e932656802fb5fe64172dcc26f.svg",
     "static/media/plane-1.svg": "/nova-labs/static/media/plane-1.fe82e3af65e7cf0bdc42d3be3d582cbf.svg",
     "index.html": "/nova-labs/index.html",
-    "main.90668f13.css.map": "/nova-labs/static/css/main.90668f13.css.map",
+    "main.6cd7ca62.css.map": "/nova-labs/static/css/main.6cd7ca62.css.map",
     "main.57e306aa.js.map": "/nova-labs/static/js/main.57e306aa.js.map",
     "787.4a178e0d.chunk.js.map": "/nova-labs/static/js/787.4a178e0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90668f13.css",
+    "static/css/main.6cd7ca62.css",
     "static/js/main.57e306aa.js"
   ]
 }
