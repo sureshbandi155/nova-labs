@@ -35,22 +35,22 @@ export const Footer: React.FC = () => {
                                 <div className={styles['socialShare']}>
                                     <ul>
                                         <li>
-                                            <a href="">
+                                            <a href="https://www.facebook.com/Socialize-Metaverse-104740608884163/" target='_blank' rel="noreferrer">
                                                 <Icon name="facebook f" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="https://www.instagram.com/socialize_metaverse/" target='_blank' rel="noreferrer">
                                                 <Icon name="instagram" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="https://twitter.com/Sociali63476552" target='_blank' rel="noreferrer">
                                                 <Icon name="twitter" />
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="">
+                                            <a href="https://www.linkedin.com/in/socialize-metaverse-456bb9237/" target='_blank' rel="noreferrer">
                                                 <Icon name="linkedin" />
                                             </a>
                                         </li>

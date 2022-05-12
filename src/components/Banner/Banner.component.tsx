@@ -2,16 +2,18 @@ import React, { useEffect } from 'react';
 import { Grid, Header } from 'semantic-ui-react';
 import Typewriter from 'typewriter-effect/dist/core';
 import './Banner.scss';
-import Women from 'src/assets/images/woman.png';
-import Men from "src/assets/images/man.png";
-import Analytics from 'src/assets/images/analytics.svg';
-import Calendar from "src/assets/images/calendar.svg";
-import Person from "src/assets/images/person.svg";
-import FingerPrint from "src/assets/images/finger-print.svg";
-import Coconut from "src/assets/images/coconut.svg";
-import Logout from "src/assets/images/logout.svg";
-import Plane from "src/assets/images/plane-1.svg";
-import Law from "src/assets/images/law.svg";
+
+// import SocialResp from 'src/assets/images/social-responsibility.svg';
+import SocialResp1 from 'src/assets/images/social-network.svg';
+import Blockchain from 'src/assets/images/Blockchain.svg';
+import Exchange from 'src/assets/images/Exchange.svg';
+import Megaverse from 'src/assets/images/metaverse.svg';
+import Games from 'src/assets/images/games.svg';
+import Art from 'src/assets/images/art.svg';
+import Wallet from 'src/assets/images/wallet.svg';
+import Soltions from 'src/assets/images/bitcoin-technology.svg';
+import Swap from 'src/assets/images/mining-bitcoin.svg';
+
 export const Banner: React.FC = () => {
 
     useEffect(() => {
@@ -63,40 +65,40 @@ export const Banner: React.FC = () => {
                         <Grid.Column computer={8} tablet={8} mobile={16} className={'rightCol'}>
                             <div className={"orbit"}>
                                 <div className={"center-image"}>
-                                    <img src={Women} alt="" />
-                                    <img src={Men} alt="" />
+                                    {/* <img src={SocialResp} alt="" />  */}
+                                    <img src={SocialResp1} alt="" />
                                 </div>
                                 <ul>
                                     <li>
-                                        <div><img src={Analytics} alt="" /></div>
+                                        <div><img src={Art} alt="" className='imgWidth' /></div>
                                         <p>Publishing NFTs</p>
                                     </li>
                                     <li>
-                                        <div><img src={Calendar} alt="" /></div>
+                                        <div><img src={Swap} alt="" className='imgWidth' /></div>
                                         <p>Crypto SWAP</p>
                                     </li>
                                     <li>
-                                        <div><img src={Person} alt="" /></div>
+                                        <div><img src={Megaverse} alt="" className='imgWidth' /></div>
                                         <p>Metaverse</p>
                                     </li>
                                     <li>
-                                        <div><img src={FingerPrint} alt="" /></div>
+                                        <div><img src={Soltions} alt="" className='imgWidth' /></div>
                                         <p>Solutions</p>
                                     </li>
                                     <li>
-                                        <div><img src={Coconut} alt="" /></div>
+                                        <div><img src={Exchange} alt="" /></div>
                                         <p>Exchange</p>
                                     </li>
                                     <li>
-                                        <div><img src={Logout} alt="" /></div>
+                                        <div><img src={Wallet} alt="" /></div>
                                         <p>Wallet</p>
                                     </li>
                                     <li>
-                                        <div><img src={Plane} alt="" /></div>
+                                        <div><img src={Blockchain} alt="" /></div>
                                         <p>Blockchain</p>
                                     </li>
                                     <li>
-                                        <div><img src={Law} alt="" /></div>
+                                        <div><img src={Games} alt="" className='mobileImg' /></div>
                                         <p>Games, Music</p>
                                     </li>
                                 </ul>
