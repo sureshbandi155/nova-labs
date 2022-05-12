@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/nova-labs/static/css/main.6cd7ca62.css",
-    "main.js": "/nova-labs/static/js/main.57e306aa.js",
+    "main.css": "/nova-labs/static/css/main.87f7f7a6.css",
+    "main.js": "/nova-labs/static/js/main.d13b5ce9.js",
     "static/js/787.4a178e0d.chunk.js": "/nova-labs/static/js/787.4a178e0d.chunk.js",
-    "static/media/woman.png": "/nova-labs/static/media/woman.482062a11ad978223665.png",
-    "static/media/man.png": "/nova-labs/static/media/man.04f5ea9dcfb2ea2e0e06.png",
-    "static/media/finger-print.svg": "/nova-labs/static/media/finger-print.f3051185454e2fde52ef5c2648c81c72.svg",
-    "static/media/analytics.svg": "/nova-labs/static/media/analytics.f61a7739cc14e343cb7caec3208a594f.svg",
-    "static/media/person.svg": "/nova-labs/static/media/person.10bb7a30e41301237ff17b14c676dc8e.svg",
-    "static/media/logout.svg": "/nova-labs/static/media/logout.130f6ab47fd832be6481279e5fa5029b.svg",
-    "static/media/calendar.svg": "/nova-labs/static/media/calendar.17e604b3d24d5b173f7c1ecf57ca4a26.svg",
-    "static/media/coconut.svg": "/nova-labs/static/media/coconut.056466ab53e0461e1de0caca3be0c0fb.svg",
-    "static/media/law.svg": "/nova-labs/static/media/law.8417b1e932656802fb5fe64172dcc26f.svg",
-    "static/media/plane-1.svg": "/nova-labs/static/media/plane-1.fe82e3af65e7cf0bdc42d3be3d582cbf.svg",
+    "static/media/metaverse.svg": "/nova-labs/static/media/metaverse.177d886c94ca724454b3f77d011048f8.svg",
+    "static/media/social-network.svg": "/nova-labs/static/media/social-network.66dfee4024ccc0b2c8d277f4c82ceb87.svg",
+    "static/media/art.svg": "/nova-labs/static/media/art.a1433c14a1fe3932560ff7481edf3d24.svg",
+    "static/media/mining-bitcoin.svg": "/nova-labs/static/media/mining-bitcoin.796ccfd17122777f759b6c412ce0e400.svg",
+    "static/media/bitcoin-technology.svg": "/nova-labs/static/media/bitcoin-technology.cdb0d9f498b25000e9dd4babe82bce95.svg",
+    "static/media/wallet.svg": "/nova-labs/static/media/wallet.dc057a9a4f9f0cfc6dad73d205b65ce4.svg",
+    "static/media/Exchange.svg": "/nova-labs/static/media/Exchange.f6858f21c65a59a0e393667ec0a29136.svg",
+    "static/media/Blockchain.svg": "/nova-labs/static/media/Blockchain.a1e7720b1e9e8171e9ec4f0cc04bd5ab.svg",
+    "static/media/games.svg": "/nova-labs/static/media/games.cd0f136e2534a4062ab4e0ae45ae0082.svg",
     "index.html": "/nova-labs/index.html",
-    "main.6cd7ca62.css.map": "/nova-labs/static/css/main.6cd7ca62.css.map",
-    "main.57e306aa.js.map": "/nova-labs/static/js/main.57e306aa.js.map",
+    "main.87f7f7a6.css.map": "/nova-labs/static/css/main.87f7f7a6.css.map",
+    "main.d13b5ce9.js.map": "/nova-labs/static/js/main.d13b5ce9.js.map",
     "787.4a178e0d.chunk.js.map": "/nova-labs/static/js/787.4a178e0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cd7ca62.css",
-    "static/js/main.57e306aa.js"
+    "static/css/main.87f7f7a6.css",
+    "static/js/main.d13b5ce9.js"
   ]
 }
