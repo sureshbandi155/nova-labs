@@ -3,7 +3,7 @@
 .headerSec {
   padding: 0.8rem 0;
   background-color: $header_BG;
-  border-bottom: 1px solid rgba(0, 17, 41, 0.1);
+
 }
 
 .logo {
@@ -27,19 +27,18 @@
   }
 }
 
-// .rightCol {
-//   text-align: right;
-//   button {
-//     margin-right: 0 !important;
-//   }
-// }
 @media (min-width: 768px) {
   .headerSec {
-    position: sticky;
-    transition: all 0.2s linear;
+    position: absolute;
+    transition: all .3s linear;
     z-index: 9;
     width: 100%;
     top: 0;
+  }
+
+  .stickyHeader {
+    position: fixed;
+    box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 10%);
   }
 }
 @media (min-width: 1025px) {

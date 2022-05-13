@@ -1,11 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Grid } from 'semantic-ui-react';
 import styles from './Header.module.scss';
 
 
 export const Header: React.FC = () => {
+
+    const [scroll, setScroll] = useState<boolean>(false)
+
+    useEffect(() => {
+        document.addEventListener("scroll", () => {
+            setScroll(window.scrollY > 63);
+        });
+    }, []);
+
     return (
-        <div className={styles['headerSec']}>
+        <div className={[scroll ? styles['stickyHeader'] : null, styles['headerSec']].join(' ')}>
             <div className="wrapper">
                 <Grid>
                     <Grid.Row>
