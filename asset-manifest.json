@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nova-labs/static/css/main.2af91479.css",
+    "main.css": "/nova-labs/static/css/main.99de553b.css",
     "main.js": "/nova-labs/static/js/main.ec7fea74.js",
     "static/js/787.4a178e0d.chunk.js": "/nova-labs/static/js/787.4a178e0d.chunk.js",
     "static/media/metaverse.svg": "/nova-labs/static/media/metaverse.177d886c94ca724454b3f77d011048f8.svg",
@@ -13,12 +13,12 @@
     "static/media/Blockchain.svg": "/nova-labs/static/media/Blockchain.a1e7720b1e9e8171e9ec4f0cc04bd5ab.svg",
     "static/media/games.svg": "/nova-labs/static/media/games.cd0f136e2534a4062ab4e0ae45ae0082.svg",
     "index.html": "/nova-labs/index.html",
-    "main.2af91479.css.map": "/nova-labs/static/css/main.2af91479.css.map",
+    "main.99de553b.css.map": "/nova-labs/static/css/main.99de553b.css.map",
     "main.ec7fea74.js.map": "/nova-labs/static/js/main.ec7fea74.js.map",
     "787.4a178e0d.chunk.js.map": "/nova-labs/static/js/787.4a178e0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2af91479.css",
+    "static/css/main.99de553b.css",
     "static/js/main.ec7fea74.js"
   ]
 }
